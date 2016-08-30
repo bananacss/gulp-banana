@@ -18,9 +18,7 @@ module.exports = (opts = {}) => {
       return cb(new PluginError(pluginName, 'Streams not supported!'));
     }
 
-    const config = opts;
-
-    const banana = require('bananacss')(config);
+    const banana = require('bananacss')(opts);
 
     const renderedContents = banana.render(file.contents.toString(), file.path);
 
