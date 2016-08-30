@@ -1,0 +1,48 @@
+{
+  "name": "gulp-banana",
+  "version": "0.1.0",
+  "description": "Gulp plugin for compile Banana code to CSS.",
+  "license": "MIT",
+  "author": {
+    "name": "Afonso Pacifer",
+    "email": "afonsopacifer@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bananacss/gulp-banana/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bananacss/gulp-banana"
+  },
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "bananacss",
+    "css",
+    "parser",
+    "style",
+    "preprocessor",
+    "stylesheets",
+    "superset",
+    "language"
+  ],
+  "scripts": {
+    "test": "mocha test/index.js",
+    "cover": "istanbul cover _mocha -- ./test/* --recursive",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "eslint": "eslint index.js test/*"
+  },
+  "dependencies": {
+    "bananacss": "^0.8.0",
+    "gulp-util": "^3.0.7",
+    "replace-ext": "^1.0.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.12",
+    "eslint": "^3.2.2",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.0",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
