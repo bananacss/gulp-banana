@@ -6,8 +6,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/bananacss/gulp-banana/badge.svg?branch=master)](https://coveralls.io/github/bananacss/gulp-banana?branch=master)
 [![Dependency Status](https://david-dm.org/bananacss/gulp-banana.svg)](https://david-dm.org/bananacss/gulp-banana)
 [![devDependency Status](https://david-dm.org/bananacss/gulp-banana/dev-status.svg)](https://david-dm.org/bananacss/gulp-banana#info=devDependencies)
-[![npm](https://img.shields.io/npm/v/gulp-banana.svg)](https://www.npmjs.com/package/bananacss)
-[![npm](https://img.shields.io/npm/dt/gulp-banana.svg)](https://www.npmjs.com/package/bananacss)
+[![npm](https://img.shields.io/npm/v/gulp-banana.svg)](https://www.npmjs.com/package/gulp-banana)
+[![npm](https://img.shields.io/npm/dt/gulp-banana.svg)](https://www.npmjs.com/package/gulp-banana)
 
 ## Install
 
