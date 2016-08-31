@@ -46,6 +46,29 @@ gulp.task('banana', () => {
 
 *All options have `true` as default value, except the `compress`. [View all](https://github.com/bananacss/bananacss#the-bananafile)*
 
+## Development
+
+### Code Style
+
+Follow the [Banana NodeJS style guide](https://github.com/bananacss/banana-style-guide).
+
+*Validate the code style with [ESLint](http://eslint.org/):*
+```sh
+$ npm run eslint
+```
+
+### Tests
+
+*Run the unit tests with [mocha](https://mochajs.org/):*
+```sh
+$ npm test
+```
+
+*Calculate the coverage with [Istanbul](https://gotwarlost.github.io/istanbul/):*
+```sh
+$ npm run cover
+```
+
 ## Versioning
 To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
 
