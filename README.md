@@ -36,9 +36,9 @@ gulp.task('default', ['banana']);
 gulp.task('banana', () => {
   gulp.src(['src/**.bnn'])
     .pipe(banana({
-      bnnVariable = true,
-      bnnImport = true,
-      compress = false
+      bnnVariable : true,
+      bnnImport : true,
+      compress : false
     }))
     .pipe(gulp.dest('dist'));
 });
